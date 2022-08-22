@@ -1,0 +1,40 @@
+h1{
+    font-size: 80px;       
+}
+
+/* Comment in CSS */
+.blue{
+    color: blue;
+}
+
+.red{
+    color: red;
+}
+
+#purple{
+    color: purple;
+}
+
+.alignLeft{
+    text-align: left;
+}
+
+.alignCenter{
+    text-align: center;
+}
+
+.alignRight{
+    text-align: right;
+}
+
+.white{
+    color: white;
+}
+
+.blackBackground{
+    background-color: black;
+}
+
+body{
+    background-color: bisque;
+}
