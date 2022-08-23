@@ -1,0 +1,120 @@
+<html>
+  <head>
+    <title>
+      Bootstrap Demo
+    </title>
+
+    <!--to use external bootstrap use the following-->
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
+  </head>
+
+  <body>
+       
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="heading.html">Heading demo</a>
+            </li>
+            <li class="nav-item">
+                <a href="textdemo.html">Text Demo</a>
+            </li>
+            <li class="nav-item">
+                <a href="unorderedlist.html">Unordered List Demo</a>
+            </li>
+            <li class="nav-item">
+                <a href="ordered.html">Ordered List Demo</a>
+            </li>
+            <li class="nav-item">
+                <a href="table1.html">Table Demo 1</a>
+            </li>
+            <li class="nav-item">
+                <a href="table2.html">Table Demo 2</a>
+            </li>
+            <li class="nav-item">
+                <a href="css.html">CSS Demo</a>
+            </li>
+            <li class="nav-item">
+                <a href="travel.html">August Vacation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="bootstrapdemo.html">Bootstrap Demo</a>
+            </li>
+        </ul>
+     
+     <!--Bootstrap elemnts allow for your code to be formatted into a grid (rows and columns)-->
+     <!--first, make a container to use a div and then use the class="container"-->
+     <div class = "container">
+
+        <!--for each row, make a div that is class="row"-->
+        <div class="row">
+            <!--for each row, specify columns (up to 12 allowed)-->
+            <div class="col-md-4"
+                <!-- this is a column of size 4 -->
+                <p>This information is in the first 1/3 of the first row in my bootstrap grid!</p>
+            </div>
+            <div class="col-md-4"
+                <!-- this is a column of size 4 -->
+            <p>This information is in the second 1/3 of the first row in my bootstrap grid!</p>
+            </div>
+            <div class="col-md-4"
+                <!-- this is a column of size 4 -->
+                <p>This information is in the third 1/3 of the first row in my bootstrap grid!</p>
+            </div>
+        </div> <!--end of the first row-->
+
+        <div class="row">
+            <div class="col-md-6">
+                <!-- column of size 6 (1/2 of the row)-->
+                <h2>This info is in the first 1/2 of the second row</h2>
+            </div>
+            <div class="col-md-6">
+                <!-- column of size 6 (1/2 of the row)-->
+                <h2>This info is in the second 1/2 of the second row</h2>
+            </div> 
+        </div> <!-- End of the second row-->
+
+        <div class="row">
+            <div class = "col-md-8"
+                <!-- column of size 8 (2/3 of the row)-->
+                <h3>This info takes up 2/3 of the third row</h3>
+            </div>
+            <div class = "col-md-3"
+                <!-- column of size 3 (1/4 of the row)-->
+                <h3>This info takes up 1/4 of the third row</h3>
+            </div>
+            <div class = "col-md-1"
+                <!-- column of size 1 (1/12 of the row)-->
+                <h3>This info takes up 1/12 of the third row</h3>
+            </div>
+        </div> <!--end of the third row-->
+
+        <div class="row">
+            <div class="col-md-12"
+                <h1>THE ENTIRE ROW IS MINE!</h1>
+            </div>
+        </div> <!--end of the fourth row-->
+     
+        <div class="row">
+            <div class="col-md-12"
+                <div class="alert alert-primary" role="alert"
+                    This is an exampmle of an alert!
+                </div>
+            </div>  
+        </div> <!--end of the fifth row-->
+    </div> <!-- end of the bootstrap demo-->   
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X
+    +965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+    crossorigin="anonymous"></script>
+  </body>
+</html>
