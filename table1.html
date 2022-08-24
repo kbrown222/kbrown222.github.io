@@ -7,11 +7,13 @@
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
     crossorigin="anonymous">
+
+    <link rel="stylesheet" href="navStyle.css">
   </head>
   
   <body>
     <nav> 
-      <ul class="nav nav-pills nav-fill">
+      <ul class="nav nav-pills nav-fill primaryNav">
         <li class="nav-item">
             <a href="index.html">Home</a>
         </li>
@@ -42,8 +44,29 @@
         <li class="nav-item">
             <a href="bootstrapdemo.html">Bootstrap Demo</a>
         </li>
+        <li class="nav-item">
+            <a href="mediaQuerydemo.html">Media Query Demo</a>
+        </li>
     </ul>
-</nav>
+    <div class="dropdown show secondaryNav"> <!--secondary navigation-->
+        <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Navigation List
+        </a>
+      
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="index.html">Home</a>
+          <a class="dropdown-item" href="heading.html">Heading demo</a>
+          <a class="dropdown-item" href="textdemo.html">Text Demo</a>
+          <a class="dropdown-item" href="unorderedlist.html">Unordered List Demo</a>
+          <a class="dropdown-item" href="ordered.html">Ordered List Demo</a>
+          <a class="dropdown-item active" href="table1.html">Table Demo 1</a>
+          <a class="dropdown-item" href="table2.html">Table Demo 2</a>
+          <a class="dropdown-item" href="css.html">CSS Demo</a>
+          <a class="dropdown-item" href="travel.html">August Vacation</a>
+          <a class="dropdown-item" href="mediaQueryDemo.html">Media Query Demo</a>
+        </div>
+      </div>
+
 
 </body>
   <body>

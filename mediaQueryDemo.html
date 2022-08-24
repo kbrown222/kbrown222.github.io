@@ -1,25 +1,18 @@
 <html>
   <head>
     <title>
-      My Home Page
+    Media Query Demo
     </title>
     <link rel="stylesheet" 
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
     crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="style.css"
+    <link rel="stylesheet" href="boxstyle.css">
     <link rel="stylesheet" href="navStyle.css">
+   </head>
 
-<!--<style>
-    h1{
-        font-size: 24 px;
-    }
-    </style>-->
-  </head>
-
-  <body>
-      <nav> 
+  <body> <!--Primary nav big screen-->
         <ul class="nav nav-pills nav-fill primaryNav">
           <li class="nav-item">
               <a href="index.html">Home</a>
@@ -43,7 +36,7 @@
               <a href="table2.html">Table Demo 2</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="css.html">CSS Demo</a>
+              <a href="css.html">CSS Demo</a>
           </li>
           <li class="nav-item">
               <a href="travel.html">August Vacation</a>
@@ -52,35 +45,41 @@
               <a href="bootstrapdemo.html">Bootstrap Demo</a>
           </li>
           <li class="nav-item">
-            <a href="mediaQuerydemo.html">Media Query Demo</a>
-          </li>
-        </ul>
-        <div class="dropdown show secondaryNav"> <!--secondary navigation-->
-            <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Navigation List
-            </a>
-          
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="index.html">Home</a>
-              <a class="dropdown-item" href="heading.html">Heading demo</a>
-              <a class="dropdown-item" href="textdemo.html">Text Demo</a>
-              <a class="dropdown-item" href="unorderedlist.html">Unordered List Demo</a>
-              <a class="dropdown-item" href="ordered.html">Ordered List Demo</a>
-              <a class="dropdown-item" href="table1.html">Table Demo 1</a>
-              <a class="dropdown-item" href="table2.html">Table Demo 2</a>
-              <a class="dropdown-item active" href="css.html">CSS Demo</a>
-              <a class="dropdown-item" href="travel.html">August Vacation</a>
-              <a class="dropdown-item" href="mediaQueryDemo.html">Media Query Demo</a>
-            </div>
-          </div>
-    
+            <a class="nav-link active" aria-current="page" href="mediaQueryDemo.html">Media Query Demo</a>
+        </li>
+      </ul>
 
- <h1>MAKE ME BLUE</h1>
- <h1>MAKE ME PURPLE</h1>
- <h1>MAKE ME RED</h1>
- <h1>LEFT</h1>
- <h1>CENTER</h1>
- <h1>RIGHT</h1>
+      <div class="dropdown show secondaryNav"> <!--secondary navigation-->
+        <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Navigation List
+        </a>
+      
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="index.html">Home</a>
+          <a class="dropdown-item" href="heading.html">Heading demo</a>
+          <a class="dropdown-item" href="textdemo.html">Text Demo</a>
+          <a class="dropdown-item" href="unorderedlist.html">Unordered List Demo</a>
+          <a class="dropdown-item" href="ordered.html">Ordered List Demo</a>
+          <a class="dropdown-item" href="table1.html">Table Demo 1</a>
+          <a class="dropdown-item" href="table2.html">Table Demo 2</a>
+          <a class="dropdown-item" href="css.html">CSS Demo</a>
+          <a class="dropdown-item" href="travel.html">August Vacation</a>
+          <a class="dropdown-item active" href="mediaQueryDemo.html">Media Query Demo</a>
+        </div>
+      </div>
+
+      <center>
+            <h2>Media Query Demo</h2>
+            <h3>Change the width of the page to see changes in the page</h3>
+      </center>
+
+      <div class="box greenbox"></div>
+      <div class="box redbox"></div>
+      <div class="box bluebox"></div>
+      <div class="box violetbox"></div>
+      <div class="box yellowbox"></div>
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X
     +965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
@@ -89,7 +88,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
     crossorigin="anonymous"></script>
-
   </body>
 </html>
 
